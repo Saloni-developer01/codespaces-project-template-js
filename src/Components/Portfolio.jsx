@@ -19,9 +19,11 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+import image from "../images/design-desk.jpg";
+
+
+const imageAltText = "desktop with books and computer";
 
 /**
  * Project list
@@ -31,35 +33,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Maze Game 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "It's a puzzle-solving challenge that requires you to overcome various twists and turns to reach the exit.",
+    url: "https://saloni-developer01.github.io/Maze-Game/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Image Searching App",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is the image searching web in which you can see the images of your choice. 'API WEB'",
+    url: "https://saloni-developer01.github.io/Image-generator/",
   },
   {
-    title: "My Resume Site",
+    title: "Code Editor",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is very simple and Beautiful Code Editor in which you design a different types of website!.",
+    url: "https://saloni-developer01.github.io/CodeEditor/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Linkedin Clone",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "'A MERN Project', LinkedIn is a professional networking platform, which I have cloned here.",
+    url: "https://linkedin-clone-seven-dusky.vercel.app/",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
